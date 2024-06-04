@@ -1,0 +1,74 @@
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100vh;
+    background-color: var(--white);
+    box-shadow: 0 0 10px var(--white200);
+
+    h1 {
+        font-size: 50px;
+        font-weight: 800;
+        padding: 0 20px 20px;
+        color: var(--black400);
+    }
+
+    ul {
+        margin-bottom: 20px;
+
+        li {
+            color: var(--black);
+            padding: 10px;
+            margin-left: 20px;
+            font-size: 18px;
+            border: 1px solid var(--white500);
+            width: 200px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            transition: all 0.3s;
+
+            &:hover {
+                background: linear-gradient(to right, var(--graA), var(--graB));
+                // color: var(--white);
+            }
+
+            .icon {
+                width: 20px;
+                height: 20px;
+                background-size: 20px;
+                background-repeat: no-repeat;
+                display: inline-block;
+                margin-right: 14px;
+                vertical-align: -4px;
+                border-radius: 3px;
+                margin-left: 20px;
+            }
+
+            &:nth-child(1) .icon {
+                background-image: url(../img/icon-melon.jpg);
+            }
+
+            &:nth-child(2) .icon {
+                background-image: url(../img/icon-bugs.jpg);
+            }
+
+            &:nth-child(3) .icon {
+                background-image: url(../img/icon-apple.jpg);
+            }
+
+            &:nth-child(4) .icon {
+                background-image: url(../img/icon-genie.jpg);
+            }
+
+        }
+    }
+
+    h2 {
+        font-size: 22px;
+        // font-weight: 600;
+        padding: 0 20px 10px;
+        color: var(--black900);
+        // margin-bottom: 10px;
+    }
+}
