@@ -7,6 +7,8 @@
     npm i sass
     npm i react-icons
     npm i react-player
+    npm i react-spinners
+    npm install react-datepicker --save
 ````
 
 
